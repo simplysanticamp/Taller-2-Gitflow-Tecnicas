@@ -16,7 +16,7 @@ Rf_02-Codido de Estudiante:
 | :--- | :---: | ---: |
 | Longitud de 8 caracteres | 1. E1234567 == 8 Caracteres | 1. E123, < 8 caracteres <br> 2. E12345678910, > 8 caracteres |
 | Inicio con la letra "E" | 1. "E"0000000 | 1. "A"9999999 <br> 2. "K"1234567 |
-| 7 caracteres restantes <br> deben ser numericos | 1. E123IY67 | Fila 2, Col 3 |
+| 7 caracteres restantes <br> deben ser numericos | 1. E1234567 | 2. E123YO08 (Contine caracteres no númericos) <br> 2. E123-#7@ (Contiene caracteres especiales) |
 
 ## 5. Trazabilidad
 
