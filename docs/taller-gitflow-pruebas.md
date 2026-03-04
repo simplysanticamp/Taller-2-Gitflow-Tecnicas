@@ -20,4 +20,10 @@ Rf_02-Codido de Estudiante:
 
 ## 5. Trazabilidad
 
+| Requerimiento | Técnica             | Caso de Prueba | Condición de Entrada                                                         | Clase    | Dato de Prueba | Resultado Esperado           |
+| ------------- | ------------------- | -------------- | ---------------------------------------------------------------------------- | -------- | -------------- | ---------------------------- |
+| RF-01         | Partición de clases | CP-01          | Código de 8 caracteres que inicia con “E” y contiene 7 números               | Válida   | E1234567     | El sistema acepta el código  |
+| RF-01         | Partición de clases | CP-02          | Código que no cumple el formato (longitud incorrecta o caracteres inválidos) | Inválida | E123         | El sistema rechaza el código |
+
+
 ## 6. Gestion de Versiones (GitFlow)
